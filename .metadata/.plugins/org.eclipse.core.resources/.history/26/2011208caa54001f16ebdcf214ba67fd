@@ -1,0 +1,14 @@
+//Void Methods
+package methods.userdefined;
+
+public class VoidMethod 
+{
+	public static void printGreeting()
+	{
+		System.out.println("Hello welcome! world");
+	}
+	public static void main(String[] args) 
+	{
+		printGreeting();
+	}
+}

@@ -1,0 +1,16 @@
+package methods.userdefined;
+
+public class ParameterizedMethod 
+{
+	// User-defined value-returning method
+	public static int calculateSquare(int num)
+	{
+		return num * num;
+	}
+	public static void main(String[]args)
+	{
+		int num = 5;
+		int square = calculateSquare(num);
+		System.out.println("the " + num +" square is " + square );
+	}
+}

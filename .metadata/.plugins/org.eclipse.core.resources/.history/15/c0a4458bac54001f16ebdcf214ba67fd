@@ -1,0 +1,19 @@
+package methods.userdefined;
+
+public class ParameterizedMethod 
+{
+	
+	public static void main(String[] args)
+	{
+	    int number = 5;
+	    int square = calculateSquare(number);
+	    System.out.println("The square of " + number + " is: " + square);
+	}
+	
+	// User-defined value-returning method
+	public static int calculateSquare(int num) 
+	{
+	    return num * num;
+	}
+
+}

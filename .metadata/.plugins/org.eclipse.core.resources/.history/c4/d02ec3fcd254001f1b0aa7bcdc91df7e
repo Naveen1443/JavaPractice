@@ -1,0 +1,15 @@
+package methods.staticMethods;
+
+public class Demo1 
+{
+	static int n = 0;
+	public static void staticMethod()
+	{
+		System.out.println("static method value : " + n);
+	}
+	public static void main(String[]args)
+	{
+		Demo1.staticMethod();
+		System.out.println("static method value in main method : " + Demo1.n);
+	}
+}

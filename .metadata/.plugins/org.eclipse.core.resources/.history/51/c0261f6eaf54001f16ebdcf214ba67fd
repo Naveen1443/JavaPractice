@@ -1,0 +1,24 @@
+User-defined methods in Java are methods that are created by the programmer to perform specific tasks. 
+These methods help in organizing code, improving readability, and promoting re-useability.
+ A method typically consists of a method signature (which includes the method name, return type, and parameters) and 
+ a method body (which contains the code to be executed when the method is called).
+
+Types of User-defined Methods
+
+Void Methods:              These methods do not return any value.
+Value-returning Methods:   These methods return a value of a specific type.
+Parameterized Methods:     These methods accept parameters.
+Non-parameterized Methods: These methods do not accept parameters.
+
+Explanation
+						 	
+Value-returning Methods: 	These methods perform an action and return a value. 
+						 	The calculateSquare method returns the square of a number.
+						 	
+Parameterized Methods:   	These methods take input parameters, perform an action, and optionally return a value.
+						 	The checkEven method checks if a number is even and returns a boolean.
+						 	
+Non-parameterized Methods:  These methods do not take any input parameters.
+							The printCurrentTime method prints the current time without needing any input.
+ 							By using user-defined methods, programmers can modularize their code,
+							making it more maintainable and understandable.

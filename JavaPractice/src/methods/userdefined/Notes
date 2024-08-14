@@ -1,0 +1,12 @@
+User-defined methods in Java are methods that are created by the programmer to perform specific tasks. 
+These methods help in organizing code, improving readability, and promoting re-useability.
+ A method typically consists of a method signature (which includes the method name, return type, and parameters) and 
+ a method body (which contains the code to be executed when the method is called).
+
+Types of User-defined Methods
+
+Void Methods:              These methods do not return any value.
+Value-returning Methods:   These methods return a value of a specific type.
+Parameterized Methods:     These methods accept parameters.
+Non-parameterized Methods: These methods do not accept parameters.
+

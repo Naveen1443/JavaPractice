@@ -1,0 +1,15 @@
+package methods.userdefined;
+
+import java.time.LocalTime;
+public class Non_parameterizedMethod 
+{
+	public static void printCurrentTime()
+	{
+		LocalTime currentTime = LocalTime.now();
+		System.out.println("The current time is : " + currentTime);
+	}
+	public static void main(String[]args)
+	{
+		printCurrentTime();
+	}
+}

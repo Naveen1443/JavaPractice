@@ -1,0 +1,15 @@
+//Example 2 for predefined method
+package methods.predefined;
+
+public class Demo2 
+{
+    public static void main(String[] args) 
+    {
+        String word = "Naveen";
+        System.out.println("The length of word is : " + length(word));
+    }
+    public static int length(String str) 
+    {
+        return str.length();
+    }
+}

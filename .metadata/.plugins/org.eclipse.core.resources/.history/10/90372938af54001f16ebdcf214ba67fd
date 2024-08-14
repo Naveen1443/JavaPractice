@@ -1,0 +1,16 @@
+package methods.userdefined;
+
+public class ParameterizedMethod 
+{
+	//user-defined parameterized method
+	public static boolean checkEven(int num)
+	{
+		return num%2 == 0;
+	}
+	public static void main(String[] args) 
+	{
+		int num = 4;
+		boolean isEven = checkEven(num);
+		System.out.println("Is " + num + " even? " + isEven);;
+	}
+}

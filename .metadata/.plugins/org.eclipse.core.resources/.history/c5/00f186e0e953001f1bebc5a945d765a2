@@ -1,0 +1,11 @@
+package com.hyrtutorials.telugu;
+
+public class Dog
+{
+	public 
+	
+	public static void main(String[] args) 
+	{
+		System.out.println("Test - com.hyrtutorials.telugu");
+	}
+}

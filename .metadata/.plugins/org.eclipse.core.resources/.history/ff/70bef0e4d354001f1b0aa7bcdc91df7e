@@ -1,0 +1,15 @@
+package methods.nonstaticMethods;
+
+public class Demo1 
+{
+	int n = 0;
+	public void instanceMethod()
+	{
+		System.out.println("Inside instanceMethod value of n is :" + n);
+	}
+	public static void main(String[] args) 
+	{
+		Demo1 obj = new Demo1();
+		obj.instanceMethod();
+	}
+}

@@ -1,0 +1,16 @@
+//Math pre-defined methods
+package methods.predefined;
+
+public class Mathmethods 
+{
+	public static void main(String[]args)
+	{
+		int number = -10;
+		double value = 16.0;
+		double base = 2.0;
+		double exponent = 3.0;
+		
+		//using abs method
+		int absoluteValue = Math.abs(number);
+	}
+}
